@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020604"/><stop offset=".55" stop-color="#06180d"/><stop offset="1" stop-color="#001b0b"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="520" fill="url(#bg)"/>
+<g opacity=".65" filter="url(#glow)" fill="none" stroke="#39ff88">
+  <path d="M80 420 L230 80 L300 420 M900 420 L1020 70 L1140 420" stroke-width="12"/>
+  <path d="M0 390 Q300 250 600 390 T1200 390" stroke-width="3"/>
+</g>
+<g transform="translate(600 250)">
+  <ellipse rx="150" ry="130" fill="#101514" stroke="#39ff88" stroke-width="7"/>
+  <ellipse cx="-115" cy="-15" rx="70" ry="95" fill="#1b2522" stroke="#39ff88" stroke-width="6"/>
+  <ellipse cx="115" cy="-15" rx="70" ry="95" fill="#1b2522" stroke="#39ff88" stroke-width="6"/>
+  <path d="M-125 -90 Q0 -180 125 -90 L105 -30 Q0 -70 -105 -30Z" fill="#070a09" stroke="#39ff88" stroke-width="7"/>
+  <text x="0" y="-82" text-anchor="middle" fill="#39ff88" font-family="Arial,sans-serif" font-weight="900" font-size="52">FLY</text>
+  <rect x="-175" y="75" width="350" height="55" rx="20" fill="#050706" stroke="#39ff88" stroke-width="5"/>
+  <text x="0" y="116" text-anchor="middle" fill="#39ff88" font-family="Arial,sans-serif" font-weight="900" font-size="34" letter-spacing="8">DJ FLY</text>
+</g>
+<text x="600" y="475" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="18" letter-spacing="7" opacity=".8">THE FLY IS ON THE DECKS</text>
+</svg>
