@@ -1,0 +1,11 @@
+dj:
+  name: DJ Fly
+  bpm: 128
+  energy: 0.72
+  groove: 0.55
+  visual_mode: neon-club
+
+show:
+  state: warmup
+  crowd_reactive: true
+  pulse_strength: 0.8
