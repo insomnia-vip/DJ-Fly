@@ -1,7 +1,7 @@
 # DJ Fly
 
 <p align="center">
-  <img src="assets/dj-fly-banner.png" alt="DJ Fly" width="100%">
+  <img src="assets/dj-fly-banner.svg" alt="DJ Fly" width="100%">
 </p>
 
 <p align="center">
@@ -28,6 +28,7 @@ concepts/    stage ideas, show concepts, and visual experiments
 audio/       sound experiments and DJ Fly references
 docs/        project notes and world-building
 web/         small interactive DJ Fly experiments
+src/djfly/   performance-state simulation
 ```
 
 ## DJ Fly
@@ -59,6 +60,15 @@ The primary DJ Fly aesthetic is built around:
 - gold chain details
 - loud nightclub energy
 - the FLY mark as the central visual element
+
+## Run the tiny engine
+
+```bash
+pip install -e .
+dj-fly
+```
+
+The command emits a deterministic performance frame containing BPM, energy, groove, and pulse values that can be used by future audio or visual prototypes.
 
 ## Status
 
